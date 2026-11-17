@@ -1,0 +1,27 @@
+{
+  "name": "assignment3-inventory-management-system",
+  "version": "1.0.0",
+  "description": "Assignment 3: Inventory and Data Management System using Node.js, Express.js, MongoDB, Mongoose, and dotenv",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "seed": "node data/seed.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "inventory",
+    "rest-api"
+  ],
+  "author": "Prachi Manwal (2501730365)",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.0"
+  }
+}
